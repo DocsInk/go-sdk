@@ -1,6 +1,6 @@
 # \PatientsApi
 
-All URIs are relative to *http://api.docsink.com/api*
+All URIs are relative to *http://dev-api.docsink.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

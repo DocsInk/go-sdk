@@ -25,4 +25,5 @@ type Patient struct {
 	Provider  int32    `json:"provider,omitempty"`
 	Location  int32    `json:"location,omitempty"`
 	Flags     []string `json:"flags,omitempty"`
+	DoNotSms  string   `json:"do_not_sms,omitempty"`
 }

@@ -19,6 +19,7 @@ Name | Type | Description | Notes
 **Provider** | **int32** |  | [optional] 
 **Location** | **int32** |  | [optional] 
 **Flags** | **[]string** |  | [optional] 
+**DoNotSms** | **string** |  | [optional] 
 **Fname** | **string** |  | [optional] 
 **Lname** | **string** |  | [optional] 
 **Address2** | **string** |  | [optional] 

@@ -19,6 +19,7 @@ Name | Type | Description | Notes
 **Provider** | **int32** |  | [optional] 
 **Location** | **int32** |  | [optional] 
 **Flags** | **[]string** |  | [optional] 
+**DoNotSms** | **string** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

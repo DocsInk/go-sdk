@@ -10,7 +10,7 @@ package api
 
 // GetAppointmentTypesResponse struct for GetAppointmentTypesResponse
 type GetAppointmentTypesResponse struct {
-	Data  []AppointmentType      `json:"data,omitempty"`
-	Links Links                  `json:"links,omitempty"`
-	Meta  map[string]interface{} `json:"meta,omitempty"`
+	Data  []AppointmentType `json:"data,omitempty"`
+	Links Links             `json:"links,omitempty"`
+	Meta  interface{}       `json:"meta,omitempty"`
 }

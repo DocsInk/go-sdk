@@ -25,6 +25,7 @@ type PatientRequest struct {
 	Provider  int32    `json:"provider,omitempty"`
 	Location  int32    `json:"location,omitempty"`
 	Flags     []string `json:"flags,omitempty"`
+	DoNotSms  string   `json:"do_not_sms,omitempty"`
 	Fname     string   `json:"fname,omitempty"`
 	Lname     string   `json:"lname,omitempty"`
 	Address2  string   `json:"address2,omitempty"`

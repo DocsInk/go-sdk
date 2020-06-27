@@ -79,11 +79,15 @@ type Configuration struct {
 // NewConfiguration returns a new Configuration object
 func NewConfiguration() *Configuration {
 	cfg := &Configuration{
-		BasePath:      "http://api.docsink.com/api",
+		BasePath:      "http://dev-api.docsink.com/api",
 		DefaultHeader: make(map[string]string),
-		UserAgent:     "app",
+		UserAgent:     "docsink",
 		Debug:         false,
 		Servers: []ServerConfiguration{
+			{
+				Url:         "http://dev-api.docsink.com/api",
+				Description: "No description provided",
+			},
 			{
 				Url:         "http://api.docsink.com/api",
 				Description: "No description provided",
